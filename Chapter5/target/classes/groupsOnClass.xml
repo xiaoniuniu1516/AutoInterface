@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suiteName">
+    <!--<test name = "runAll"> &lt;!&ndash;运行所有的组&ndash;&gt;-->
+        <!--<classes>-->
+            <!--<class name ="com.testng.xinyi.groups.GroupsOnClass01"/>-->
+            <!--<class name ="com.testng.xinyi.groups.GroupsOnClass02"/>-->
+            <!--<class name ="com.testng.xinyi.groups.GroupsOnClass03"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <test name = "Only run Stu">
+        <groups> <!--根据自己的需要run 指定的测试组，这个组名是给class分的组-->
+            <run>
+                <include name = "stu"/>
+            </run>
+
+        </groups>
+        <classes>
+            <class name ="com.testng.xinyi.groups.GroupsOnClass01"/>
+            <class name ="com.testng.xinyi.groups.GroupsOnClass02"/>
+            <class name ="com.testng.xinyi.groups.GroupsOnClass03"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name ="parameters">
+    <test name = "para">
+        <parameter name="name" value="四大美少女"/>
+        <parameter name="age" value="18" />
+
+        <classes>
+
+            <class name="com.testng.xinyi.parameter.TestParameter"/>
+        </classes>
+    </test>
+
+</suite>

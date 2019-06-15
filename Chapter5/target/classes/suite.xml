@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "test">  <!-- name 随便定义-->
+<test name = "Login">   <!-- name 随便定义， 且必须得有-->
+    <classes>
+        <class name = "com.testng.xinyi.suite.SuiteConfig"/>
+        <class name = "com.testng.xinyi.suite.LoginTest"/>
+
+    </classes>
+
+</test>
+<test name = "Pay">   <!-- name 随便定义， 且必须得有-->
+    <classes>
+        <class name = "com.testng.xinyi.suite.SuiteConfig"/>
+        <class name = "com.testng.xinyi.suite.Pay"/>
+
+    </classes>
+</test>
+</suite>
