@@ -1,0 +1,9 @@
+启动命令
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json
+
+http： 是协议类型，按照该协议类型启动框架
+-p ： 程序启动用到的端口，可以随便指定，只要可以用就可以
+
+-c 后跟的是Jason配置文件： 主要关注该配置文件的格式，都是围绕格式去补充详细内容
+   jaso配置文件可以写相对路径也可以写绝对路径，此处因为startup1和mocojar包在一个目录下，所以直接写相对路径
+

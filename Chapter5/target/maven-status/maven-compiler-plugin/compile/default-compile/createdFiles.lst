@@ -1,11 +1,13 @@
 com\testng\xinyi\groups\GroupsOnClass03.class
 com\testng\xinyi\suite\SuiteConfig.class
 com\testng\xinyi\ExpactException.class
+com\demo\multiply.class
 com\testng\xinyi\groups\GroupsOnClass02.class
 com\testng\xinyi\suite\Pay.class
 com\testng\xinyi\Test01.class
+com\testng\xinyi\suite\testCase.class
 com\testng\xinyi\groups\GroupsOnClass01.class
-TestNG1_Chapter5\testCase.class
 com\testng\xinyi\parameter\TestParameter.class
 com\testng\xinyi\DependOnMethod.class
 com\testng\xinyi\suite\LoginTest.class
+TestNG1_Chapter5\multiply.class

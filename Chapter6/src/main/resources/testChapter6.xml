@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "sunny自己的接口测试套件">
+    <test name = "sunny自己的测试模块">
+    <classes>
+        <class name = "com.tester.extentReport.demo.TestExtentReportDemo">
+            <methods>
+                <include name ="test01"/>
+                <include name ="test02"/>
+                <include name ="test03"/>
+                <include name ="log"/>
+
+            </methods>
+        </class>
+    </classes>
+    </test>
+    <listeners>
+               <!--如果需要生成报告，需要有监听器去监听结果，搜集后生成报告-->
+        <!--vimalselvam，这个是之前添加的依赖，后面的ExtentTestNgFormatter， 是这个包中的监听器，我们用vimalselvam这个插件监听结果-->
+        <!--<listener class-name = "com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+        <!--<listener class-name = "com.tester.extentReport.demo.ExtentTestNGReportListenerOld"/>-->
+        <listener class-name = "com.tester.extentReport.demo.ExtentTestNGReportListener"/>
+
+    </listeners>
+
+</suite>
